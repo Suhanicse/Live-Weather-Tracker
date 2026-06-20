@@ -1,0 +1,21 @@
+.InfoBox {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+     
+}
+
+.properCard {
+  border: 2px solid #0EA5E9;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+ .properCard:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(14, 165, 233, 0.35);
+ }
